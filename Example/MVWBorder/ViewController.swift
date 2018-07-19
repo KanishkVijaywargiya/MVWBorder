@@ -7,18 +7,18 @@
 //
 
 import UIKit
+import MVWBorder
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        myImageView.borderMe(borderColor: UIColor.blue, borderWidth: 4.0)
+        myImageView.clipsToBounds = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 }
 
