@@ -1,0 +1,16 @@
+PODS:
+  - MVWBorder (0.1.0)
+
+DEPENDENCIES:
+  - MVWBorder (from `../`)
+
+EXTERNAL SOURCES:
+  MVWBorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MVWBorder: b76b0c46bf29aecf40e2ee1ea7c802f1017f80ea
+
+PODFILE CHECKSUM: cf98f2f5a3a658362c2fe392318a9243c3ab6212
+
+COCOAPODS: 1.5.3

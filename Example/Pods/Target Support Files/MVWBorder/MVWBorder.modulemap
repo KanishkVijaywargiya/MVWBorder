@@ -1,0 +1,6 @@
+framework module MVWBorder {
+  umbrella header "MVWBorder-umbrella.h"
+
+  export *
+  module * { export * }
+}
