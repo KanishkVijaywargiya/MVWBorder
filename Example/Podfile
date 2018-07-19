@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MVWBorder_Example' do
+  pod 'MVWBorder', :path => '../'
+
+  target 'MVWBorder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
